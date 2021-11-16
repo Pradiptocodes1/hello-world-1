@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html lang="eng" dir="ltr">
+<meta charset="UTF-8">
+<head>
+<title>
+Form
+</title>
+</head>
+<body bgcolor="ADD8E6">
+<div id="form">
+<header>
+	<h1><center><font color="white">FORM</font></center></h1>
+</header>
+<div id="form">
+<form id="form a" action="thanks.html" method="get">
+	<center>
+	<label id="Name"><h3>Enter your name</h3></label>
+	<input type="text" name="Your Name" value="enter your name here" style="background-color: orange" required> <br>
+	<hr style= "height: 5px;border-width: 6;color: gray;background-color: blue; width: 100%"/> 
+	<label id="contact number"><h3>Contact details (numeric value only)</h3></label>
+<input type="text" name="Your phone number" value="enter your contact number" style="background-color: orange" required pattern="[0-9]{10}"/>
+<br>
+<hr style="width:100%; height:5px; color:gray; background-color:blue; border-width: 6"/>
+<label id="DOB"> <h3>Enter your date of Birth in DD/MM/YYYY format</h3></label>
+<br>
+<label id="day">Day</label>
+<input type="number" name="Day" max="31" min="01" step="1" style="width:50px: ; background-color: yellow;" required/>
+<label id="Month">Month</label>
+<input type="number" name="month" max="12" min="01" step="1" style="width:50px: ; background-color: yellow;" required/>
+<label id="Year">Year</label>
+<input type="number" name="year" max="2021" min="1920" step="1" style="width:50px: ; background-color: yellow;" required/> 
+<br>
+<hr style="width:100%; height:5px; color:gray; background-color:blue; border-width: 6"/>
+<label id="gender"><h3>Enter your gender</h3></label>
+<input type="radio" name="gender" value="Male" required>Male
+<input type="radio" name="gender" value="female" required>Female
+<input type="radio" name="gender" value="Rather not say" required>Rather not say
+<br>
+<hr style="width:100%; height:5px; color:gray; background-color:blue; border-width: 6"/>
+<label id="personality"><h3>Select one or more that defines your personality (be honest)</h3></label>
+<input type="checkbox" name="personality" value="humble"><font color="green"><strong>Humble</strong></font>
+<input type="checkbox" name="personality" value="kind" ><font color="green"><strong>Kind</strong></font>
+<input type="checkbox" name="personality" value="aggresive"><font color="red"><strong>Aggresive</strong></font>
+<input type="checkbox" name="personality" value="aggresive"><font color="red"><strong>Bold</strong></font>
+<br>
+<hr style="width:100%; height:5px; color:gray; background-color:blue; border-width: 6"/>
+<label for="color"><h3>select your favourite colour</h3></label>
+<select id="color" name="color">
+	<option value="red" style="background-color:Red">Red</option>
+	<option value="violet" style="background-color:Violet">Violet</option>
+	<option value="Indigo" style="background-color:Indigo">Indigo</option>
+	<option value="Blue" style="background-color:Blue">Blue</option>
+	<option value="Green" style="background-color:Green">Green</option>
+</select>
+<br>
+<hr style="width:100%; height:5px; color:gray; background-color:blue; border-width: 6"/>
+<label for="country"><h3>From which country do you belong</h3></label>
+<input type="text" list="country" style="background-color: yellow"/>
+<datalist id="country" name="country">
+	<option value="United States"></option>
+	<option value="India"></option>
+	<option value="Australia"></option>
+	<option value="New Zealand"></option>
+	<option value="Russia"></option>
+</datalist>
+<br>
+<hr style="width:100%; height:5px; color:gray; background-color:blue; border-width: 6"/>
+<label for="comments"><h3>Enter Comments, if any</h3></label>
+<textarea id="comments" name="comments" rows="9" cols="50" style="background-color:orange; color:blue;=">
+	</textarea>
+	<br>
+<hr style="width:100%; height:5px; color:gray; background-color:gray; border-width: 6"/>
+<hr style="width:100%; height:5px; color:gray; background-color:gray; border-width: 6"/>
+<input type="submit" value="proceed" style="width: 100px; height: 20px; color: white; background-color: Brown">
+</center>
+</form>
+</div>
+</div>
+</body>
+</html>
